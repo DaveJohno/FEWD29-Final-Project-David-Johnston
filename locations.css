@@ -1,0 +1,113 @@
+
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  /* background-color: #8beb00; */
+  color: white;
+}
+.victoria {
+    background-color: #8beb00;
+}
+
+.nsw {
+    background-color: #008beb;
+}
+.locations.nsw > div > div > h3, .locations.nsw > div > div > h4 {
+  color: #eb008b;
+}
+
+.state-location {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.each-location {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #008beb;
+  padding: 15px;
+  margin: 15px;
+}
+
+.each-location > p {
+  color: black;
+}
+
+
+
+
+/* @media screen and (orientation: landscape) and (min-width:420px) {
+} */
+
+@media screen and (min-width:420px) {
+  .state-location {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width:720px) {
+  .state-location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}
+
+
+@media screen and (min-width:960px) {
+  .state-location {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Site Styles */
+
+/* font-family: 'Changa', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* https://www.colorhexa.com/eb008b - Colour Ref */
+
+/* Possible Triadic Color scheme
+#8beb00
+#eb008b
+#008beb
+
+Possible Complementary colour scheme
+#00eb60
+#eb008b
+
+Possible split Complementary colour scheme
+#16eb00
+#eb008b
+#00ebd6
+
+Monochromatic Color
+#9f005e
+#b8006d
+#d2007c
+#eb008b
+#ff0599
+#ff1fa3
+#ff39ae
+ */

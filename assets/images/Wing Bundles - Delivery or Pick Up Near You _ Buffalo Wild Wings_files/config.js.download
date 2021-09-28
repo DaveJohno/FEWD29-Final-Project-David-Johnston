@@ -1,0 +1,5 @@
+
+window[window["TiktokAnalyticsObject"]].instance("C44564K787TERR100IP0").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true});
+window[window["TiktokAnalyticsObject"]].instance("C44564K787TERR100IP0").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C44564K787TERR100IP0").setPixelInfo({status: 0, name: "Buffalo Wild Wings Site Pixel 2021", advertiserID: "6966603451048443906", setupMode: 1, partner: "", is_onsite: false});
+window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("buffalowildwings.com");
+window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig([]);
