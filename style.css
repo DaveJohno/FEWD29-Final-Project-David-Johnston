@@ -461,6 +461,11 @@ background-color: #8beb00;
   justify-self: center;
   padding: 15px;
 }
+
+.food-content > p {
+  font-size: 14px;
+}
+
 .wingzItems {
   background-color:rgba(0,139,235,.5);
 }
@@ -518,11 +523,11 @@ rgba(235,0,139, .5);
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif; */
 }
-body{
+/* body{
     font-weight: 300;
     font-size: 1.05rem;
     line-height: 1.5;
-}
+} */
 .food-img > img{
     width: 80%;
     /* max-height: 300px; */
@@ -611,6 +616,21 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+.new-product {
+background: #eb008b;
+ color: white;
+ padding: 5px;
+ text-transform: uppercase;
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ z-index: 2;
+ font-size: 16px;
+ border-radius: 10px;
+}
+
+
 
 .wingzRate, .chickenSpan {
       background: #890051;
@@ -795,7 +815,7 @@ align-self: center;
         text-transform: uppercase;
         bottom: 100px;
         transform: rotate(-90deg);
-        transform-origin: 107px 5px 0;
+        transform-origin: 113px 5px 0;
         background: #eb008b;
         text-decoration: none;
 }
