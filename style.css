@@ -293,8 +293,11 @@ ul {
   height: 90%;
   width: 90%; /* Could be more or less, depending on screen size */
   transition: transform 0.2s;
+  overflow: scroll;
 }
-
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
 
 .modalHeader {
   display: flex;
@@ -335,7 +338,7 @@ ul {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 90%;
+  width: 80%;
   padding: 10px 0px 10px 0px;
 }
 
@@ -368,6 +371,13 @@ ul {
   padding: 20px;
   opacity: 75%
 }
+
+.our-story > h2 {
+  color: white;
+  text-align: center;
+}
+
+
 .our-story > h1, .our-story > p {
   color: white;
   width: 90%;
@@ -669,6 +679,7 @@ background: #eb008b;
     justify-content: space-between;
     align-items: center;
 }
+
 .chicken-total {
 color: #890051;
 }
